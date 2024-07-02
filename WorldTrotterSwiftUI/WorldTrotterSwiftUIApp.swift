@@ -2,7 +2,7 @@
 //  WorldTrotterSwiftUIApp.swift
 //  WorldTrotterSwiftUI
 //
-//  Created by Preet Karia on 2/1/24.
+//  Created by Preet Karia on 1/27/24.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct WorldTrotterSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WorldTrotterView()
         }
     }
 }

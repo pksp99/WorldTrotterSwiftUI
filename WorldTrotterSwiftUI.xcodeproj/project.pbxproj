@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		9A65CA392B6C811200620432 /* WorldTrotterSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65CA382B6C811200620432 /* WorldTrotterSwiftUIApp.swift */; };
-		9A65CA3B2B6C811200620432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65CA3A2B6C811200620432 /* ContentView.swift */; };
+		9A65CA3B2B6C811200620432 /* WorldTrotterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65CA3A2B6C811200620432 /* WorldTrotterView.swift */; };
 		9A65CA3D2B6C811400620432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A65CA3C2B6C811400620432 /* Assets.xcassets */; };
 		9A65CA402B6C811400620432 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A65CA3F2B6C811400620432 /* Preview Assets.xcassets */; };
+		9A65CA492B6C82C200620432 /* TemperatureConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65CA482B6C82C200620432 /* TemperatureConverterView.swift */; };
+		9A65CA4B2B6D6D5900620432 /* ConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65CA4A2B6D6D5900620432 /* ConverterViewModel.swift */; };
+		9A65CA4D2B6D859000620432 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65CA4C2B6D859000620432 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A65CA352B6C811200620432 /* WorldTrotterSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotterSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A65CA382B6C811200620432 /* WorldTrotterSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterSwiftUIApp.swift; sourceTree = "<group>"; };
-		9A65CA3A2B6C811200620432 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A65CA3A2B6C811200620432 /* WorldTrotterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterView.swift; sourceTree = "<group>"; };
 		9A65CA3C2B6C811400620432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A65CA3F2B6C811400620432 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A65CA482B6C82C200620432 /* TemperatureConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterView.swift; sourceTree = "<group>"; };
+		9A65CA4A2B6D6D5900620432 /* ConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewModel.swift; sourceTree = "<group>"; };
+		9A65CA4C2B6D859000620432 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		9A65CA372B6C811200620432 /* WorldTrotterSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9A65CA3A2B6C811200620432 /* WorldTrotterView.swift */,
+				9A65CA4C2B6D859000620432 /* MapView.swift */,
+				9A65CA482B6C82C200620432 /* TemperatureConverterView.swift */,
+				9A65CA4A2B6D6D5900620432 /* ConverterViewModel.swift */,
 				9A65CA382B6C811200620432 /* WorldTrotterSwiftUIApp.swift */,
-				9A65CA3A2B6C811200620432 /* ContentView.swift */,
 				9A65CA3C2B6C811400620432 /* Assets.xcassets */,
 				9A65CA3E2B6C811400620432 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A65CA3B2B6C811200620432 /* ContentView.swift in Sources */,
+				9A65CA492B6C82C200620432 /* TemperatureConverterView.swift in Sources */,
+				9A65CA3B2B6C811200620432 /* WorldTrotterView.swift in Sources */,
+				9A65CA4D2B6D859000620432 /* MapView.swift in Sources */,
 				9A65CA392B6C811200620432 /* WorldTrotterSwiftUIApp.swift in Sources */,
+				9A65CA4B2B6D6D5900620432 /* ConverterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
